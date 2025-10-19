@@ -4,7 +4,7 @@ sudo pacman -Syu --noconfirm --needed git
 
 HYPRLAND_CONFIG_REPO="hannesSchwanzer/hyprland-config"
 
-echo -e "\nCloning Omarchy from: https://github.com/${HYPRLAND_CONFIG_REPO}.git"
+echo -e "\nCloning from: https://github.com/${HYPRLAND_CONFIG_REPO}.git"
 rm -rf ~/.local/share/hyprland-config/
 git clone "https://github.com/${HYPRLAND_CONFIG_REPO}.git" ~/.local/share/hyprland-config >/dev/null
 

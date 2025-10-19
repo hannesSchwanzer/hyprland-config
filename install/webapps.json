@@ -1,0 +1,22 @@
+[
+  {
+    "name": "WhatsApp",
+    "url": "https://web.whatsapp.com/",
+    "icon": "WhatsApp.png"
+  },
+  {
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com/",
+    "icon": "ChatGPT.png"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://youtube.com/",
+    "icon": "YouTube.png"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/",
+    "icon": "GitHub.png"
+  },
+]

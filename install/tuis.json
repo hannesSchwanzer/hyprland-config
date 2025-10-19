@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Disk Usage",
+    "exec": "bash -c 'dust -r; read -n 1 -s'",
+    "window_style": "float",
+    "icon": "$HOME/.local/share/applications/icons/Disk Usage.png"
+  },
+]
