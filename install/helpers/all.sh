@@ -1,4 +1,4 @@
-source $OMARCHY_INSTALL/helpers/chroot.sh
-source $OMARCHY_INSTALL/helpers/presentation.sh
-source $OMARCHY_INSTALL/helpers/errors.sh
-source $OMARCHY_INSTALL/helpers/logging.sh
+source $INSTALL_SCRIPT_LOCATION/helpers/chroot.sh
+source $INSTALL_SCRIPT_LOCATION/helpers/presentation.sh
+source $INSTALL_SCRIPT_LOCATION/helpers/errors.sh
+source $INSTALL_SCRIPT_LOCATION/helpers/logging.sh
