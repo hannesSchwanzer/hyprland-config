@@ -13,7 +13,6 @@ export PATH="$HYPRLAND_CONFIG_PATH/bin:$PATH"
 source "$INSTALL_SCRIPT_LOCATION/helpers/all.sh"
 source "$INSTALL_SCRIPT_LOCATION/preflight/all.sh"
 source "$INSTALL_SCRIPT_LOCATION/packaging/all.sh"
-source "$INSTALL_SCRIPT_LOCATION/config/all.sh"
-source "$INSTALL_SCRIPT_LOCATION/login/all.sh"
+# source "$INSTALL_SCRIPT_LOCATION/config/all.sh"
 source "$INSTALL_SCRIPT_LOCATION/post-install/all.sh"
 

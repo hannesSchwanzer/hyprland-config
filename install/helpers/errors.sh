@@ -89,11 +89,6 @@ catch_errors() {
       options+=("Retry installation")
     fi
 
-    # Add upload option if internet is available
-    if ping -c 1 -W 1 1.1.1.1 >/dev/null 2>&1; then
-      options+=("Upload log for support")
-    fi
-
     # Add remaining options
     options+=("View full log")
     options+=("Exit")
@@ -111,9 +106,6 @@ catch_errors() {
       else
         tail "$INSTALL_LOG_FILE"
       fi
-      ;;
-    "Upload log for support")
-      omarchy-upload-install-log
       ;;
     "Exit" | "")
       exit 1
