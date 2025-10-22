@@ -97,7 +97,7 @@ catch_errors() {
 
     case "$choice" in
     "Retry installation")
-      bash ~/.local/share/omarchy/install.sh
+      bash ~/.local/share/hyprland-config/install.sh
       break
       ;;
     "View full log")

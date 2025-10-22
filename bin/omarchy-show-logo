@@ -2,6 +2,5 @@
 
 clear
 echo -e "\033[32m"
-cat <~/.local/share/omarchy/logo.txt
 echo -e "\033[0m"
 echo
