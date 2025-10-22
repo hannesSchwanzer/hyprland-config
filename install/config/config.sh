@@ -1,3 +1,5 @@
+shopt -s dotglob
+
 backup_if_exists() {
     local target="$1"
     if [ -e "$target" ] && [ ! -L "$target" ]; then
